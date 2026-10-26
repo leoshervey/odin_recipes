@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Black.otf) format('opentype');
+    font-weight: 900;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Bold.otf) format('opentype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Italic.otf) format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-BoldItalic.otf) format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Regular.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Retail Text Demo';
+}
+
+.header{
+    color: #ac145a;
+    font-weight: 900;
+    font-style: bold;
+    font-size: xx-large;
+}
+
+.subheader{
+    color: #000000;
+    font-weight: 500;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.thirdheading{
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+}
+
+.recipe-list{
+    color: red;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.back-button{
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+.tag{
+    font-style: italic;
+    font-weight: 300;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.nutrition{
+    font-style: normal;
+    text-align: center;
+}
