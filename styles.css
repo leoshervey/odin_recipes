@@ -83,15 +83,28 @@
     list-style-position: inside;
 }
 
-.rl{
-    display: inline-block;
+.recipe-titles{
+    display: flex;
+}
+
+.recipe-titles .rl{
     background-color: #37353E;
     color: white;
     padding: 10px;
     margin-top: 10px;
-    margin-left: auto;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
     width: 250px;
+    height: auto;
     text-align: center;
+    flex: 1 1 auto;
+    border: 1px solid #bbb;
+    &:hover{
+        background-color: white;
+        color: #37353E;
+        width: 300px;
+    }
 }
 
 p{
