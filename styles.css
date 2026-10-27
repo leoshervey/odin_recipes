@@ -35,58 +35,107 @@
 
 *{
     font-family: 'Retail Text Demo';
+    background: #121212;
 }
 
 .header{
-    color: #ac145a;
+    color: white;
     font-weight: 900;
     font-style: bold;
     font-size: xx-large;
+    background: #2C2C2C;
+    margin: auto;
+    padding: 10px;
 }
 
 .subheader{
-    color: #000000;
+    color: white;
     font-weight: 500;
     font-style: italic;
     font-size: x-large;
+    background: #37353E;
+    margin-top: 5px;
+    padding: 10px;
+    border: 5px;
+    border-color: white;
 }
 
 .thirdheading{
+    color: white;
     font-weight: 400;
     font-style: normal;
     font-size: medium;
+    margin: auto;
+    padding: 10px;
+    border: 5px;
+    border-color: white;
+    text-align: center;
 }
 
-.recipe-list{
-    color: red;
+.recipe-list, ul, ol, li{
     font-weight: 400;
     font-style: normal;
     font-size: medium;
+    background-color: #37353E;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    list-style-position: inside;
+}
+
+.rl{
+    display: inline-block;
+    background-color: #37353E;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    width: 250px;
+    text-align: center;
 }
 
 p{
     font-style: normal;
     font-weight: 400;
     font-size: medium;
+    color: white;
 }
 
 .back-button{
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
+    background-image: url("../recipes/images/back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    &:hover{
+        background-image: url("../recipes/images/alt_back.png");
+    }
 }
 
 .tag{
     font-style: italic;
     font-weight: 300;
+    color: white;
 }
 
-img{
+.meal{
     height: 300px;
     width: auto;
 }
 
-.nutrition{
-    font-style: normal;
+th, td{
+    padding: 1px;
+    width: 150px;
+    border-bottom: 1px solid #bbb;
     text-align: center;
+    color: white;
+    background-color: #37353E;
+}
+
+table{
+    margin: auto;
 }
